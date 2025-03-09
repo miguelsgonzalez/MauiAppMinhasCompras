@@ -9,13 +9,6 @@
             InitializeComponent();
         }
 
-        public object CounterBtn { get; private set; }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
-
         private void OnCounterClicked(object sender, EventArgs e)
         {
             count++;

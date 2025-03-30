@@ -9,6 +9,8 @@
         <ToolbarItem Text="Adicionar" Clicked="ToolbarItem_Clicked" />
     </ContentPage.ToolbarItems>
 
+    <Button Text="Relatório por Categoria" Clicked="RelatorioPorCategoria_Clicked" />
+
     <VerticalStackLayout>
         <SearchBar x:Name="txt_search" 
                    Placeholder="Busca de Produtos"
